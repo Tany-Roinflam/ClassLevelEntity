@@ -1,0 +1,24 @@
+ListTitle: '&a等级图鉴&b[page]&a页'
+
+ListLore:
+  - '&a这里显示了所有生物可异变获得的等级属性以及掉落物情况'
+  - '&a异变过的生物会获得相比原来不同的属性'
+  - '&a猎杀它们可以额外获得奖励！'
+  - '&a点击对应的等级代表物，可查看击杀此等级额外的掉落物'
+
+KillMessage: '&a成功击杀等级为[[class]&a]的生物！'
+KillMoneyMessage: '&a成功击杀等级为[[class]&a]的生物！获得&e[money]&6游戏币&a！'
+KillExpMessage: '&a成功击杀等级为[[class]&a]的生物！额外掉落&5[exp]&d经验&a！'
+KillLevelMessage: '&a成功击杀等级为[[class]&a]的生物！获得&d[level]&5等级&a！'
+
+ItemTitle: '&2[[class]&2]掉落物品第&b[page]&2页'
+
+ItemLore:
+  - '&a击杀拥有特殊等级的怪物不仅可以获得游戏币等奖励'
+  - '&a还有几率掉落额外的物品！以上为可能额外掉落物品的列表'
+
+ProbabilityLore:
+  - '&a此物品掉落概率为&7[probability]'
+  - '&a此物品掉落数量： &7[min] &a- &7[max]&a个'
+
+CustomNameFormat: '&a[[class]&a]&2[name]'

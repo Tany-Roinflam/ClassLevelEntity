@@ -1,0 +1,70 @@
+#默认的生成概率（最多4位小数）
+SpawnProbability: 0.0001%
+
+#默认生成类别（0-2）
+#0代表所有，1代表怪物，2代表动物
+DefaultType: 1
+
+#默认创建提升/减少的固定血量
+ExtraHealth: 20
+#默认创建设置的血量百分比（基于原血量）
+ExtraHealthPercentage: 200%
+
+#默认创建提升/减少的固定伤害
+ExtraDamage: 5
+#默认创建设置的伤害百分比（基于原伤害）
+ExtraDamagePercentage: 150%
+
+#默认创建提升/减少的固定护甲（计算公式同lol）
+ExtraArmor: 80
+
+#默认创建设置的速度百分比
+ExtraSpeedPercentage: 125%
+
+#默认添加的lore（所有变量都已加上）
+#想删除请使用dellore
+Lore:
+  - '&6&l〼&7&l&m▁□▁□▁&c&l ◤&b等级属性&c&l◢ &7&l&m▁□▁□▁&6&l〼'
+  - '&8&l▫ &2生成概率： &a[spawn]'
+  - '&8&l▫ &2此等级只会在&a怪物&2身上生成'
+  - '&8&l▫ &2血量为原来的&a[healthPercentage]&2并额外提升&a[health]&2点'
+  - '&8&l▫ &2伤害为原来的&a[damagePercentage]&2并额外提升&a[damage]&2点'
+  - '&8&l▫ &2护甲抗性值为&a[armor]&2点'
+  - '&8&l▫ &2速度为原来的&a[speedPercentage]'
+  - '&6&l〼&7&l&m▁□▁□▁&c&l ◤&b击杀奖励&c&l◢ &7&l&m▁□▁□▁&6&l〼'
+  - '&8&l▫ &6击杀后可获得： &e[minMoney]&a - &e[maxMoney]&6游戏币'
+  - '&8&l▫ &6击杀额外掉落&6： &5[minExp]&a - &5[maxExp]&d经验'
+  - '&8&l▫ &6击杀后可提高： &d[minLevel]&a - &d[maxLevel]&5等级'
+
+
+#是否在自定义名称前加等级（没有自定义名称则为英文名）
+CustomName: true
+
+#黑名单生物，不会赋予等级
+#使用/cle show查询
+BlackEntityList:
+  - '名称'
+#黑名单世界，不会赋予等级
+BlackWorldList:
+  - '名称'
+
+#创建完后是否自动进入编辑属性模式
+EditMode: true
+
+#是否启用兼容MM怪物掉落模式
+#如果你没装MM或不需要MM额外掉落物品
+#请不要打开此功能
+CompatibleMode: false
+
+#list是否自动按照生成概率排序
+ListSequence: true
+#额外掉落物是否自动按照生成概率排序
+ItemSequence: true
+#如果需要自己排序，请关闭上述功能并且手动去data.yml移动位置
+
+#此生物固定等级（生成时）
+FixedLevel:
+  生物名称: '&a测试'
+
+#注意事项：
+#setbc公告内容如果为“空”，则不会显示

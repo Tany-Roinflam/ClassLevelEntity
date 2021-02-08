@@ -1,0 +1,13 @@
+name: ClassLevelEntity
+main: pers.tany.classlevelentity.Main
+version: 1.0.0
+author: tany
+description: 生物等级
+depend: [ Vault,ProtocolLib,NBTAPI ]
+commands:
+  ClassLevelEntity:
+    usage: /ClassLevelEntity
+    aliases: [ cle ]
+permissions:
+  cle.list:
+    default: true
