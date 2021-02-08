@@ -1,2 +1,2 @@
 # ClassLevelEntity
-Minecraft生物等级插件
+Minecraft 实体等级插件
